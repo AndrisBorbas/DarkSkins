@@ -1,0 +1,381 @@
+/* ==UserStyle==
+@name           BME Neptun Dark
+@namespace      github.com/openstyles/stylus
+@version        1.2.4
+@description    Dark skin for BME Neptun
+@author         AndrisBorbas
+@updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/neptun-dark.user.css
+==/UserStyle== */
+@-moz-document domain("frame.neptun.bme.hu") {
+   :root {
+      --newfont: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   }
+
+   hmtl {
+      background-color: #222;
+      font-family: var(--newfont);
+   }
+
+   body {
+      border-color: #222;
+      background-color: #222;
+      background: linear-gradient(#555, #222 25%);
+   }
+
+   h2 {
+      color: #62c0ff;
+      background-color: #444;
+   }
+
+   a,
+   .ui-widget-content a,
+   .KollabChooser a {
+      color: #62c0ff;
+   }
+
+   .KollabChooser a,
+   .NeptunChooserSelected a {
+      font-family: var(--newfont);
+      font-size: 14px;
+   }
+
+   .scrollablebody tr td span.link {
+      color: #62c0ff !important;
+   }
+
+   fieldset {
+      border-color: #222;
+      background: linear-gradient(#555, #222 25%);
+   }
+
+   table {
+      background-color: #222;
+      color: #eee;
+      border-color: #555 !important;
+   }
+
+   .tableRowName {
+      color: #c1d4f1;
+   }
+
+   input {
+      background-color: #444;
+      color: #ddd;
+      border-left-color: #555;
+      border-top-color: #555;
+      border-right-color: #777;
+      border-bottom-color: #777;
+   }
+
+   select {
+      background-color: #444;
+      color: #ddd;
+   }
+
+   .sp_body,
+   .sp_footerbody {
+      background-color: #333;
+      border-bottom-color: #555;
+   }
+
+   .sp_footerleftcorner,
+   .sp_footerrightcorner,
+   .GadgetFooterRightCorner,
+   .GadgetFooterLeftCorner,
+   .FunctionFooterRightCorner,
+   .FunctionFooterLeftCorner,
+   .sp_afterheader,
+   .HeaderRightCorner,
+   .HeaderLeftCorner,
+   .gadgetbodyright,
+   .gadgetbodyleft,
+   .FunctionHeaderLeftCorner,
+   .FunctionHeaderRightCorner,
+   .footer_left,
+   .footer_right,
+   .grid_footerleftcorner,
+   .grid_footerrightcorner,
+   .sp_header_right,
+   .sp_header_left,
+   .sp_header_left_top,
+   .sp_header_right_top,
+   .sp_header_midle_top,
+   .top_menu_left,
+   .top_menu_right {
+      -webkit-filter: brightness(22%);
+      filter: brightness(22%);
+   }
+
+   .FunctionHeaderLeftCorner,
+   .FunctionHeaderRightCorner,
+   .grid_pagerrow_right,
+   .grid_pagerrow_left,
+   .FunctionLeftSide,
+   .FunctionRightSide,
+   .menuitemlast,
+   .menuitemfirst {
+      -webkit-filter: brightness(28%);
+      filter: brightness(28%);
+   }
+
+   .sp_afterheaderleftside,
+   .sp_childbodyleftside,
+   .sp_afterheaderrightside,
+   .sp_childbodyrightside {
+      background-color: #333;
+   }
+
+   .mainFunctionCommandBottom,
+   .FunctionFooter,
+   .GadgetFooter {
+      border-bottom-color: #444;
+   }
+
+   .grid_pagerpanel,
+   .grid_topfunctionpanel,
+   .ui-widget-header {
+      background-image: url('retarded-neptun');
+      background-color: #444 !important;
+      color: #eee !important;
+   }
+
+   .GadgetHeaderPanelTitle,
+   .GadgetHeaderPanelButtonLeftMenu,
+   .calendar .SelectedDay,
+   .calendar .Day,
+   .calendar .TodayDay,
+   .top_menu_mid,
+   .footer_menu,
+   .footer_mid,
+   .footer_sda_logo,
+   .header_sorteddown,
+   .header_sortedup,
+   .grid_RowCount,
+   .grid_bottomfunctionpanel {
+      background-image: url('retarded-neptun');
+      background-color: #333;
+      color: #eee;
+   }
+
+   .main_header_m,
+   .main_header_l,
+   .main_header_r {
+      background-image: url('retarded-neptun');
+      background-color: transparent !important;
+      color: #eee !important;
+   }
+
+   .calendar .SelectedDay {
+      background-image: url('retarded-neptun');
+      background-color: #222 !important;
+      color: #eee !important;
+   }
+
+   .calendar .Day {
+      background-image: url('retarded-neptun');
+      background-color: #333 !important;
+      color: #eee !important;
+   }
+
+   .calendar .TodayDay {
+      background-image: url('retarded-neptun');
+      background-color: #444 !important;
+      color: #eee !important;
+   }
+
+   .calendar table td {
+      color: #eee;
+   }
+
+   .calendar .DayHeader {
+      background-color: #222 !important;
+      color: #eee !important;
+   }
+
+   .calendar .SelectedDay a,
+   ul.menubar li.menu-parent,
+   .calendar .Day a:link {
+      color: #eee !important;
+   }
+
+   .calendar .calendar_weekendDdystyle a:link {
+      color: #ccc !important;
+   }
+
+   .FunctionHeader h1 {
+      color: #eee !important;
+   }
+
+   .FunctionHeaderItem,
+   .FunctionHeaderTitle {
+      background-color: #444 !important;
+      color: #eee !important;
+   }
+
+   .tableRowData {
+      color: #ddd !important;
+   }
+
+   .top_training,
+   .top_logout {
+      color: #ddd !important;
+      text-shadow: 2px 2px 5px #222;
+   }
+
+   .main_header_r_table_skin {
+      background-color: #222 !important;
+      color: #eee !important;
+   }
+
+   .main_header_r_table_skin {
+      background-color: transparent !important;
+   }
+
+   .main_table {
+      background: transparent !important;
+   }
+
+   .main_header_l_table {
+      background-color: transparent !important;
+   }
+
+   #upChooser table {
+      background-color: transparent !important;
+   }
+
+   .footer_menu a {
+      color: #ddd;
+   }
+
+   .main_header_r_table_skin {
+      border-color: #222 !important;
+   }
+
+   .table_body {
+      color: #eee;
+      border-left-color: #555 !important;
+      border-right-color: #555 !important;
+   }
+
+   .headerWithCheckbox,
+   .header {
+      color: #eee;
+      background-color: #333;
+   }
+
+   .sp_headertitle,
+   .caption {
+      color: #eee;
+   }
+
+   .scrollablebody tr {
+      color: #eee;
+      background-color: #222;
+      border-bottom-color: #555;
+   }
+
+   ul.menu {
+      color: #eee;
+      background-color: #444;
+   }
+
+   ul.menu li.menu-item {
+      color: #ddd;
+      font-family: var(--newfont);
+      font-size: 13px;
+   }
+
+   ul.menubar li.menu-parent {
+      font-family: var(--newfont);
+      text-shadow: 2px 2px 4px #000000;
+      font-size: 14px;
+   }
+
+   .login_news_content {
+      background-color: #222 !important;
+      color: #eee !important;
+   }
+
+   p[style] {
+      background-color: #222 !important;
+      color: #eee !important;
+   }
+
+   .ui-widget-content {
+      background-color: #222 !important;
+      color: #eee !important;
+   }
+
+   .readmessage_editor {
+      background-color: #222;
+      color: #eee !important;
+   }
+
+   .readmessage_editor a {
+      color: #62c0ff;
+   }
+
+   span[style] {
+      color: #eee !important;
+   }
+
+   .ui-widget-header .ui-icon {
+      -webkit-filter: brightness(100);
+      filter: brightness(100);
+   }
+
+   .ui-state-default .ui-icon {
+      -webkit-filter: brightness(0);
+      filter: brightness(0);
+   }
+
+   .Row1_sel td {
+      background-color: #444;
+      color: #fff;
+   }
+
+   .scrollablebody tr:hover {
+      background-color: #666;
+      color: #eee;
+   }
+
+   .Row1_sel:hover td {
+      background-color: #888;
+   }
+
+   .tg-timedevents {
+      background-color: #333;
+   }
+
+   .tg-today {
+      background-color: #555;
+   }
+
+   div.ctoolbar div.fbutton.fcurrent {
+      background-color: #555;
+   }
+
+   div.ctoolbar div.fbutton:hover {
+      background-color: #444;
+   }
+
+   /*Login Page*/
+   .formcss table[orgid="hallgato_custom"] {
+      background-image: url('retarded-neptun');
+      background: linear-gradient(#555, #222 29%);
+   }
+
+   .login_label {
+      color: #eee;
+   }
+
+   .login_docs a {
+      color: #62c0ff;
+   }
+
+   .login_content_docs,
+   .login_content_links,
+   .login_content_news {
+      color: #ccc;
+   }
+}
