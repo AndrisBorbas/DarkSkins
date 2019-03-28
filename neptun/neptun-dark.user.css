@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BME Neptun Dark
 @namespace      github.com/openstyles/stylus
-@version        1.2.5
+@version        1.3.0
 @description    Dark skin for BME Neptun
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/neptun-dark.user.css
@@ -19,7 +19,7 @@
    body {
       border-color: #222;
       background-color: #222;
-      background: linear-gradient(#555, #222 25%);
+      background: linear-gradient(#555, #222 20%);
    }
 
    h2 {
@@ -45,7 +45,7 @@
 
    fieldset {
       border-color: #222;
-      background: linear-gradient(#555, #222 25%);
+      background: linear-gradient(#555, #222 20%);
    }
 
    table {
@@ -163,6 +163,19 @@
       background-image: url('retarded-neptun');
       background-color: transparent !important;
       color: #eee !important;
+      height: 68px !important;
+   }
+
+   .main_table>tbody>tr>td {
+      height: 150px !important;
+   }
+
+   .panHeader {
+      height: 150px;
+   }
+
+   .langskinpartially {
+      top: 109px;
    }
 
    .calendar .SelectedDay {
