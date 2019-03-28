@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BME Neptun Dark
 @namespace      github.com/openstyles/stylus
-@version        1.2.4
+@version        1.2.5
 @description    Dark skin for BME Neptun
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/neptun-dark.user.css
@@ -167,19 +167,37 @@
 
    .calendar .SelectedDay {
       background-image: url('retarded-neptun');
-      background-color: #222 !important;
+      background-color: #333 !important;
+      color: #eee !important;
+   }
+
+   .calendar .SelectedDay:hover {
+      background-image: url('retarded-neptun');
+      background-color: #555 !important;
       color: #eee !important;
    }
 
    .calendar .Day {
       background-image: url('retarded-neptun');
-      background-color: #333 !important;
+      background-color: #222 !important;
+      color: #eee !important;
+   }
+
+   .calendar .Day:hover {
+      background-image: url('retarded-neptun');
+      background-color: #444 !important;
       color: #eee !important;
    }
 
    .calendar .TodayDay {
       background-image: url('retarded-neptun');
       background-color: #444 !important;
+      color: #eee !important;
+   }
+
+   .calendar .TodayDay:hover {
+      background-image: url('retarded-neptun');
+      background-color: #555 !important;
       color: #eee !important;
    }
 
