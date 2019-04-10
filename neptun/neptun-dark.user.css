@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BME Neptun Dark
 @namespace      github.com/openstyles/stylus
-@version        1.4.0
+@version        1.4.1
 @description    Dark skin for BME Neptun
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/neptun-dark.user.css
@@ -424,5 +424,45 @@
    /*Custom Icons*/
    div.infopanel_icon {
       background-image: url('https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/resources/infopanel_smile.png');
+   }
+
+   .img_print {
+      display: block;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-image: url('https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/resources/print.png');
+      padding-left: 32px;
+      width: 32px;
+      height: 48px;
+   }
+
+   .img_excel {
+      display: block;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-image: url('https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/resources/excel.png');
+      padding-left: 32px;
+      width: 32px;
+      height: 48px;
+   }
+
+   .img_pin {
+      display: block;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-image: url('https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/resources/pin.png');
+      padding-left: 32px;
+      width: 32px;
+      height: 48px;
+   }
+
+   .img_search {
+      display: block;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-image: url('https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/resources/search.png');
+      padding-left: 32px;
+      width: 32px;
+      height: 48px;
    }
 }
