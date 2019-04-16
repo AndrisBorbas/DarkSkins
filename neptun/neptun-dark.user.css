@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BME Neptun Dark
 @namespace      github.com/openstyles/stylus
-@version        1.4.1
+@version        1.4.2
 @description    Dark skin for BME Neptun
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/neptun-dark.user.css
@@ -101,7 +101,8 @@
    .sp_header_right_top,
    .sp_header_midle_top,
    .top_menu_left,
-   .top_menu_right {
+   .top_menu_right,
+   .login_content_separator {
       -webkit-filter: brightness(22%);
       filter: brightness(22%);
    }
