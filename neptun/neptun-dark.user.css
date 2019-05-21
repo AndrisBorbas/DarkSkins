@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BME Neptun Dark
 @namespace      github.com/openstyles/stylus
-@version        1.4.2
+@version        1.4.3
 @description    Dark skin for BME Neptun
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/neptun-dark.user.css
@@ -270,6 +270,10 @@
 
    .main_table {
       background: transparent !important;
+   }
+   
+   .gridrow_blue {
+      color: #2affa2 !important;
    }
 
    .main_header_l_table {
