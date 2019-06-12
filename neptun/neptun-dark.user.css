@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BME Neptun Dark
 @namespace      github.com/openstyles/stylus
-@version        1.4.3
+@version        1.4.4
 @description    Dark skin for BME Neptun
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/neptun-dark.user.css
@@ -50,6 +50,12 @@
 
    table {
       background-color: #222;
+      color: #eee;
+      border-color: #555 !important;
+   }
+   
+   .table_body {
+      background-color: #333;
       color: #eee;
       border-color: #555 !important;
    }
