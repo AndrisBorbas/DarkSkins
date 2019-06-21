@@ -1,0 +1,117 @@
+/* ==UserStyle==
+@name           Dollarbird dark
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Dark skin for Dollarbird website
+@author         AndrisBorbas
+@updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/dollarbird/dollarbird-dark.user.css
+==/UserStyle== */
+@-moz-document domain("app.dollarbird.co") {
+   body {
+      background-color: #222;
+      color: #EEE;
+   }
+   .calendar-day.today .day-balance, .calendar-day .day-balance {
+      color: #EEE;
+   }
+   .calendar-day .day-date {
+      color: #000;
+   }
+   .calendar-day .day-heading {
+      background-color: #444;
+   }
+   .calendar-day-event.confirmed {
+      color: #EEE;
+   }
+   .calendar-day-event {
+      color: #888;
+   }
+   #calendar-page .calendar-day-item-container:not(:nth-child(7n)) .calendar-piece::after {
+      border-right: 1px solid #000;
+   }
+   .calendar-day.another .day-balance,
+   .calendar-day.another .day-change,
+   .calendar-day.another .day-date {
+      color: #EEE;
+   }
+   .calendar-day.another:not(:hover) {
+      opacity: .4;
+   }
+   #calendar-page .calendar-weekday-item-container .weekend {
+      color: #c8e8ff;
+   }
+   #calendar-page .calendar-weekday-item-container {
+      color: #ddeffd;
+   }
+   .calendar-header .calendar-header-content {
+      background-color: #444;
+   }
+   .button-outline.button-secondary {
+      color: #000;
+   }
+   .calendar-period .period-content {
+      background-color: #333;
+   }
+   .period-month-item.selected,
+   .period-month-item:hover {
+      color: #EEE;
+   }
+   .period-month-item {
+      color: #AAA;
+   }
+   .modals .modal-item {
+      background-color: #333d;
+   }
+   .event-edit-modal .entity-property {
+      color: #eee;
+   }
+   .category .category-name {
+      color: #eee;
+   }
+   .event-edit-modal .button-select-type.active,
+   .event-edit-modal .button-select-type:hover {
+      color: #eee;
+   }
+   .calendar-side-bar .side-bar-content {
+      background-color: #333D;
+   }
+   #settings-page .settings-navigation-item.active,
+   #settings-page .settings-navigation-item:hover {
+      color: #EEE;
+   }
+   #settings-page .settings-navigation-item {
+      color: #AAA;
+   }
+   .button-fill.button-primary.disabled,
+   .button-fill.button-primary[disabled] {
+      background-color: #32424d;
+   }
+   .calendar-day .day-change {
+      color: #92acc8;
+   }
+   #dashboard-page .dashboard-header{
+      background-color: #444;
+   }
+   #dashboard-page .page-title, #dashboard-page .button-close-page, #dashboard-page .navigation-section-title, .calendar-checkbox:hover, .calendar-checkbox.selected:hover, .cash-flow-chart .meta-heading{
+      color: #eee;
+   }
+   .team-radio.selected, .team-radio:hover, .calendar-checkbox.selected{
+      color: #ddd;
+   }
+   .calendar-checkbox{
+      color: #ccc;
+   }
+   .card{
+      background-color: #333;
+      border-color: #555;
+   }
+   .cash-flow-chart .meta-value{
+      color: #cfeafb;
+   }
+   .button-outline, .button-outline.button-secondary{
+      background-color: #444;
+      color: #eee;
+      border-top-color: #555;
+      box-shadow: inset 0 0 0 1px #555;
+   }
+}
