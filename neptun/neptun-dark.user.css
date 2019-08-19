@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BME Neptun Dark
 @namespace      github.com/openstyles/stylus
-@version        1.4.4
+@version        1.4.5
 @description    Dark skin for BME Neptun
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/neptun/neptun-dark.user.css
@@ -475,5 +475,9 @@
       padding-left: 32px;
       width: 32px;
       height: 48px;
+   }
+   
+   div #upBoxes_upBoxesButtons{
+      filter: invert(90%) hue-rotate(180deg);
    }
 }
