@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name           AWS Console Dark
+@name           AWS Console Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.1.0
 @description    AWS console dark theme
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/aws/aws-dark.user.css
@@ -333,5 +333,125 @@
    .awsui awsui-radio-button,
    .awsui awsui-radio-group {
       color: #ddd;
+   }
+
+   /*Billing*/
+   .containerHeader--36Ndn {
+      background: -webkit-linear-gradient(top, #333 0%, #444 90%) !important;
+      color: #eee;
+   }
+
+   .awsui awsui-table .awsui-table-header-copy th,
+   .awsui awsui-table table th {
+      background: -webkit-linear-gradient(bottom, #333 0%, #444 60%);
+      color: #ddd;
+   }
+
+   .awsui awsui-table .awsui-table-header-copy th .awsui-table-header-content,
+   .awsui awsui-table table th .awsui-table-header-content {
+      color: #ddd;
+   }
+
+   .awsui .awsui-util-container .awsui-util-container-header .awsui-util-container-header-description,
+   .awsui .awsui-util-font-size-5,
+   .awsui .awsui-util-container .awsui-util-container-header,
+   .awsui .awsui-util-container > *,
+   .awsui awsui-table .awsui-table-header-copy,
+   .awsui awsui-table table {
+      color: #ddd;
+      background: #333;
+   }
+
+   /*Cost Explorer*/
+   .ui-nav .ui-nav-content,
+   .ui-header {
+      background: #222;
+   }
+
+   .ui-header-nav a {
+      color: #eee;
+   }
+
+   .ui-nav img,
+   .ui-header-menu-toggle .ce-logo,
+   .icon-caret-down:before {
+      filter: brightness(200%);
+   }
+
+   .awsui .awsui-util-container .awsui-util-container-header h1,
+   .awsui .awsui-util-container .awsui-util-container-header h2 {
+      background-color: #333;
+   }
+
+   .eigKGW.eigKGW.eigKGW {
+      background: #333;
+   }
+
+   .ui-card {
+      background: #333;
+      color: #eee;
+   }
+
+   .chart-tooltip {
+      background: #444;
+      color: #fff;
+   }
+
+   .report-group-by-container {
+      background: -webkit-linear-gradient(bottom, #333 0%, #444 60%);
+   }
+
+   .group-by-options-container .option {
+      color: var(--link);
+   }
+
+   .ui-flashbar-info,
+   .ui-flashbar-info a {
+      background: #444;
+      color: var(--link);
+      border-color: var(--link);
+   }
+
+   .cost-table th,
+   .left-header {
+      background: -webkit-linear-gradient(bottom, #333 0%, #444 60%);
+   }
+
+   .table-row--odd {
+      background: #444;
+   }
+
+   .date-range-container .picker-dropdown-container .picker-dropdown.open,
+   .date-range-container .picker-dropdown-container .picker-dropdown:hover,
+   .date-range-container .picker-dropdown-container .picker-dropdown {
+      background: -webkit-linear-gradient(top, #222 0%, #333 25%, #333 75%, #222);
+   }
+
+   .date-range-container .picker-dropdown-container .picker-dropdown::after {
+      filter: brightness(200%);
+   }
+
+   ob-daterangepicker .picker-dropdown-container .picker.open {
+      background: #444;
+      color: #eee;
+   }
+
+   calendar .header .date,
+   .calendar .board .cell,
+   .calendar .board .day {
+      color: #eee;
+   }
+
+   .calendar .board .days-of-week {
+      color: #eee;
+      background: #333;
+   }
+
+   calendar .board .day.future.in-range:not(.other-month):not(.disabled) {
+      background: #23457e;
+   }
+
+   .ui-first-header {
+      color: #eee;
    }
 }
