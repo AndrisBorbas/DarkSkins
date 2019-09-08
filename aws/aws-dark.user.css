@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AWS Console Dark Theme
 @namespace      github.com/openstyles/stylus
-@version        1.1.0
+@version        1.1.1
 @description    AWS console dark theme
 @author         AndrisBorbas
 @updateURL      https://raw.githubusercontent.com/AndrisBorbas/DarkSkins/master/aws/aws-dark.user.css
@@ -229,6 +229,54 @@
       border-color: #555;
       border-radius: 2px;
       border-width: 2px;
+   }
+
+   .GIQKP1XGKB,
+   .GIQKP1XHLB {
+      background: #333;
+   }
+
+   .GIQKP1XGKB,
+   .GIQKP1XKLB,
+   .GIQKP1XPKB {
+      background: #333;
+   }
+
+   .GIQKP1XLLB,
+   .GIQKP1XFKB {
+      background: #444;
+      color: #eee;
+   }
+
+   .GIQKP1XNKB {
+      background: #555;
+   }
+
+   .GIQKP1XC3D {
+      background: -webkit-linear-gradient(top, #333 0%, #444 90%);
+   }
+
+   .GIQKP1XGPB {
+      background-color: #444;
+   }
+
+   .GIQKP1XHPB {
+      filter: brightness(200%);
+   }
+
+   .GIQKP1XCDB,
+   .GIQKP1XHDB,
+   .GIQKP1XFDB,
+   .GIQKP1XDDB {
+      filter: brightness(500%);
+   }
+
+   .GIQKP1XINB .gwt-TabLayoutPanelTab {
+      background: -webkit-linear-gradient(top, #333 0%, #444 90%);
+   }
+
+   .GIQKP1XINB .gwt-TabLayoutPanelTab-selected {
+      background: -webkit-linear-gradient(bottom, #333 0%, #444 60%);
    }
 
    /*S3*/
